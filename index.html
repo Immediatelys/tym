@@ -6,7 +6,6 @@
   <META NAME="Author" CONTENT="">
   <META NAME="Keywords" CONTENT="">
   <META NAME="Description" CONTENT="">
- 
    
   <style>
   html, body {
@@ -22,6 +21,8 @@
  
 .box {
   width: 100%;
+  background-image:url(./img/avata.jpg);
+  background-size:contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -321,9 +322,10 @@ var ParticlePool = (function() {
 })(document.getElementById('pinkboard'));
   </script>
   <div class="center-text",
-  style="background-color:rgb(0, 0, 0);
+  style="background:url(./img/avata.jpg) contain;
         width: 100%;
         color: rgb(225, 12, 168);
+        font-weight: 600;
         height:100%;
         font-size: 31px;
         font-style: italic;
@@ -331,6 +333,8 @@ var ParticlePool = (function() {
         align-items: center;
         justify-content: center;
         margin-bottom: 5px;
-        text-align: center;">Bích Ngọc </div>
+        text-align: center;
+        z-index: 1;
+        ">Bích Ngọc </div>
  </BODY>
 </HTML>
